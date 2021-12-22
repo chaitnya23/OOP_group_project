@@ -1,0 +1,174 @@
+.tital-mid{
+    font-family: fantasy;
+    border-bottom: 5px solid black;
+}
+.nav-item :hover{
+    color: black;
+    border-left: 2px solid rgba(241, 128, 62, 0.932);
+    background-color: rgba(201, 23, 245, 0.884);
+    transition: all 0.3s;
+
+}
+.signup-box{
+
+    position: relative;
+    top: 1.5rem;
+    height: 35rem;
+    width: 50rem;
+    overflow: hidden;
+}
+
+.img-box img{
+    height: 100%;
+    width: 100%;
+}
+.form-group{
+
+    border-bottom: 1px solid rgb(27, 27, 27);
+}
+.form-group input{
+
+
+    border-radius: 0;
+    border:none;
+    outline: none;
+    text-decoration: none;
+}
+.input{
+    width: 85%;
+}
+
+.fas{
+    margin: 5px;
+}
+.signup-tital ,.login-box h1{
+    font-weight: 900;
+    font-family: cursive;
+}
+.form-box-login form{
+    position: relative;
+    top: 2rem;
+}
+.login-box{
+    height: 23rem;
+    width: 45rem;
+   
+
+}
+.profile{
+    height: 10rem;
+}
+.profile img{
+    width: 80%;
+    height: 80%;
+}
+.g{
+    color: rgba(83, 83, 226, 0.911);
+}
+
+.profile-box{
+  
+}
+
+.main{
+    border-bottom: 4px solid rgba(235, 225, 225, 0.849);
+}
+
+.main p{
+    position: relative;
+    left: 25rem;
+    background-color: aquamarine;
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.main-head{
+    height: 35rem;
+
+}
+.head-block1{
+    background-color: rgba(208, 170, 243, 0.938);
+}
+.title{
+    position: absolute;
+    top: 15rem;
+    left: 22rem;
+    background: transparent;
+}
+@media only screen and (max-width:460px) {
+    .login-box{
+        width: 18rem;
+        height: 40rem;
+    }
+    .signup-box{
+
+        position: relative;
+        top: 1rem;
+        height: 47rem;
+        width: 18rem;
+       
+    }
+    .signup{
+        flex-direction: column-reverse;
+
+    }
+    .title{
+        position: absolute;
+        top: 20rem;
+        left: 2rem;
+        background: transparent;
+    }
+
+    .profile-box{
+        width: 20rem;
+    }
+
+}
+
+.post{
+    font-size: large;
+}
+.company{
+    font-size: small;
+    color: rgb(253, 165, 0);
+}
+
+.post-header{
+
+    color: white;
+    border-radius: 35px;
+
+}
+
+.fa-user-circle{
+    transform: scale(2);
+}
+
+.main-home{
+
+    height: 30rem;
+    background-color: rgba(53, 50, 50, 0.842);
+    background-image: url('./images/iiitdwd.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    
+}
+
+.tital-header{
+    top: 10rem;
+    color: aqua;
+    letter-spacing: 1rem;
+    
+}
+.home-info-box img{
+    height: 100%;
+    width: 100%;
+}
+.post-header{
+    overflow: hidden;
+}
+
